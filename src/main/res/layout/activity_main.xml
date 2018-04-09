@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.androidlime.androidshareappdata.MainActivity">
+
+    <TextView
+
+        android:textColor="#A5D6A7"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:text="Alarm and Share App"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+
+     <LinearLayout
+
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+
+         <EditText
+             android:textColor="#2E7D32"
+             android:layout_marginTop="20dp"
+             android:textSize="25dp"
+             android:layout_marginLeft="40dp"
+             android:id="@+id/time"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:ems="10"
+             android:hint="Number of seconds"
+             android:inputType="numberDecimal" />
+
+         <Button
+             android:background="#B39DDB"
+             android:textSize="20dp"
+             android:textAllCaps="false"
+             android:layout_marginLeft="40dp"
+             android:id="@+id/button1"
+             android:layout_width="150dp"
+             android:layout_height="50dp"
+             android:layout_alignRight="@+id/time"
+             android:layout_below="@+id/time"
+             android:layout_marginRight="60dp"
+             android:layout_marginTop="20dp"
+             android:text="Start" />
+
+
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#FFEB3B"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="1Hours=3600seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#00C853"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="2Hours=7200seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+         <TextView
+             android:textColor="#76FF03"
+             android:textStyle="bold"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="3Hours=10800seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#FF8A65"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="4Hours=14400seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#212121"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="5Hours=18000seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#81C784"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="6Hours=21600seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#0091EA"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="7Hours=25200seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textColor="#33691E"
+             android:textStyle="bold"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="8Hours=28800seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textStyle="bold"
+             android:textColor="#FFAB91"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="9Hours=32400seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+
+         <TextView
+             android:textColor="#6200EA"
+             android:textStyle="bold"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="10Hours=36000seconds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+
+         <Button
+             android:background="#76FF03"
+             android:layout_marginLeft="190dp"
+             android:textAllCaps="false"
+             android:layout_marginTop="40dp"
+             android:textSize="20dp"
+             android:text="Share App"
+             android:id="@+id/buttonn"
+             android:layout_width="140dp"
+             android:layout_height="wrap_content" />
+
+
+
+
+
+     </LinearLayout>
+
+</LinearLayout>
